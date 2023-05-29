@@ -1,0 +1,67 @@
+.loginCard{
+    width: 1300px;
+    height: 600px;
+    background: url('https://spaceflightnow.com/wp-content/uploads/2023/03/20230321relativitylc16.jpg');
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.cardLogin{
+    width: 350px;
+    height: 350px;
+    
+    backdrop-filter: blur(10px);
+    /* background-color: antiquewhite; */
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+               -6px -6px 12px #ffffff;
+               margin-left: 120px;
+  }
+  
+  button:hover {
+    border: 1px solid white;
+  }
+  
+  button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+               -4px -4px 12px #ffffff;
+  }
+  .input {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    max-width: 300px;
+    min-height: 40px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+    background: #e8e8e8;
+    box-shadow: 5px 5px 17px #c8c8c8,
+               -5px -5px 17px #ffffff;
+    border: none;
+    border-radius: 10px;
+    transition: all .5s;
+    margin-left: 90px;
+  }
+  
+  .input:focus {
+    background: #e8e8e8;
+    box-shadow: inset 5px 5px 17px #c8c8c8,
+              inset -5px -5px 17px #ffffff;
+  }
